@@ -1,0 +1,29 @@
+.card {
+	padding: 25px;
+	background-color: rgb(243, 229, 245);
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+	margin: 50px auto;
+	width: 550px;
+	flex-wrap: wrap;
+}
+.card img {
+	width: 320px;
+    height:180px;
+    border-radius: 5px;
+}
+.card h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 30px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
